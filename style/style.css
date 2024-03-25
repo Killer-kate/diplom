@@ -1,0 +1,1329 @@
+/* Header */
+*{
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+body{
+    max-width:80%;
+}
+header nav .navbar-nav button{
+    color:white;
+    border-color: rgb(255, 136, 0);
+}
+header nav .navbar-nav button:hover{
+    background-color: rgb(255,136,0);
+}
+
+#alertsauto{
+   position: fixed;
+   top:250px;
+   left:300px;
+   z-index: 3;
+}
+
+header nav .navbar-nav button:focus{
+    box-shadow: none;
+}
+.carousel-item{
+    max-height:670px;
+}
+
+.logo-name{
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size:12px;
+}
+
+footer .logo img{
+    width:100px;
+    height:80px;
+}
+/* Header */
+
+/* footer to the floor */
+
+Html, body{
+    height: 100%;
+}
+Body {
+    display: flex;
+    flex-direction: column;
+}
+Main{
+    flex: 1 0 auto;
+}
+/* footer to the floor */
+
+/* FORM */
+.shadow{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.527);
+    display:none;
+}
+
+#reg {
+    display: inline-block; /* блочно-строчные элементы (выстраиваем элементы в линейку) */	
+    width: 400px; /* ширина элемента */	
+    height: 420px; /* высота элемента */	
+    position:fixed;
+    top:150px;
+    left:500px;	
+	display:none;
+	z-index:1;
+    background-color: rgb(0, 0, 0); /* цвет заднего фона */	
+    }
+
+    .form_autch{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-around;
+        width:300px;
+        margin:20px 0 0 40px;
+        font-size:20px;
+        color:rgb(255, 136, 0);
+    }
+
+    .form_autch a:hover{
+        cursor:pointer;
+        color:white;  
+    }
+
+    .close{
+        position:absolute;
+        top:20px;
+        right:20px;
+        font-size:18px;
+        color:rgb(255, 136, 0);
+    }
+
+    .close:hover{
+        color:white;
+        cursor:pointer;
+    }
+
+    .form_autch{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-around;
+        width:300px;
+        margin:20px 0 0 40px;
+        font-size:20px;
+        color:rgb(255, 136, 0);
+    }
+
+    .form_autch a:hover{
+        cursor:pointer;
+        color:white;  
+    }
+
+    .form_flex, .form_flex1{
+        display:flex;
+        flex-direction: column;
+        width:100%;
+    }
+
+    .form_flex h2, .form_flex1 h2{
+        font-family: 'Balsamiq Sans', cursive;
+        text-align: center;
+        margin: 40px 0;
+        color: rgb(255, 136, 0);
+    }
+
+   .form2_flex{
+       margin-top:20px;
+       margin-bottom:20px;
+   }
+
+    .form_flex input{
+        width:244px;
+        height:35px;
+        margin-bottom:20px;
+        margin-left:75px;
+        background-color:rgb(255, 255, 255);
+        border:3px solid rgb(255, 136, 0);
+    }
+
+    .form_flex1 input{
+        margin-left:75px;
+        margin-bottom:10px;
+        width:244px;
+        height:35px;
+        background-color:rgb(255, 255, 255);
+        border:3px solid rgb(255, 136, 0);
+        
+    }
+
+    .form_flex input ~[type="submit"], .form_flex1 input ~[type="submit"]{
+        width:250px;
+        height:35px;
+        font-size:20px;
+        color:white;
+        background-color:rgb(255, 136, 0);
+        border:3px solid rgb(255, 136, 0);
+    }
+
+    .form_flex input ~[type="submit"]:hover, .form_flex1 input ~[type="submit"]:hover{
+        background-color:black;
+        color:rgb(255, 136, 0);
+        cursor: pointer;
+    }
+
+/* FORM */
+
+/* General */
+h2{
+    color:rgb(255, 136, 0);
+}
+/* General */
+/* Information */
+.info p{
+    font-size:20px;
+    height:400px;
+    overflow: hidden;
+}
+
+.info .img-fluid{
+    max-width:50%;
+}
+
+.info .btn{
+    display:none;
+    border-color: rgb(255, 136, 0);
+    color:rgb(255, 136, 0);
+}
+
+.info .btn:hover{
+    color:white;
+    background-color: rgb(255, 136, 0);
+}
+/* Information */
+
+/* Gallery */
+.card-gallery{
+    margin-right:20px;
+    margin-bottom:40px;
+}
+
+.card-img1, .card-img2, .card-img3, .card-img4, .card-img5, .card-img6{
+    width:100px;
+    height:330px;
+    background-size: cover;
+}
+
+.card-img1:hover, .card-img2:hover, .card-img3:hover, .card-img4:hover, .card-img5:hover, .card-img6:hover{
+    opacity: 1;
+    cursor:pointer;
+}
+.card-img1{
+    background-image: url('../img/gallery/dog1do.jpg');
+}
+.card-img1:hover{
+    background-image:url('../img/gallery/dog1po.jpg');
+}
+.card-img2{
+    background-image: url('../img/gallery/cat1do.jpg');
+}
+.card-img2:hover{
+    background-image:url('../img/gallery/cat1po.jpg');
+}
+.card-img3{
+    background-image: url('../img/gallery/dog2do.jpg');
+}
+.card-img3:hover{
+    background-image:url('../img/gallery/dog2po.jpg');
+}
+.card-img4{
+    background-image: url('../img/gallery/cats.jpeg');
+}
+.card-img4:hover{
+    background-image:url('../img/gallery/cat2po.jpg');
+}
+.card-img5{
+    background-image: url('../img/gallery/dog3do.jpg');
+}
+.card-img5:hover{
+    background-image:url('../img/gallery/dog3po.jpg');
+}
+.card-img6{
+    background-image: url('../img/gallery/parrot1do.jpg');
+}
+.card-img6:hover{
+    background-image:url('../img/gallery/parrot1po.jpg');
+}
+/* Gallery */
+#yes{
+    display:none;
+}
+
+#imgCats{
+    width:75px;
+    height:90px;
+}
+/* Blog */
+.bl{
+    margin-right:20px;
+}
+
+.card-bl1, .card-bl2, .card-bl3{
+    width:150px;
+    height:370px;
+    background-size: cover;  
+}
+.card-bl1{
+    background-image: url('../img/blog/block-cont.jpg');
+}
+
+.card-bl2{
+    background-image: url('../img/blog/block-count2.jpg');
+}
+
+.card-bl3{
+    background-image: url('../img/blog/block-count3.jpg');
+}
+
+#bl-btn{
+    background-color:rgb(255, 136, 0);
+    color:white;
+    font-size:18px;
+    width:150px;
+}
+#bl-btn:hover{
+    background-color:rgba(255, 136, 0, 0);
+    color:rgb(255, 136, 0);
+    border:1px solid rgb(255, 136, 0);
+}
+
+.bl .card-title{
+    color:rgb(255, 136, 0);
+}
+
+.bl .card{
+    border:none;
+}
+/* Blog */
+
+/* Email */
+.image_email{
+    width:100%;
+    height:500px;
+    background-image: url('../img/dg/mail2.jpg');
+    background-size: cover;
+}
+
+.image_email form input{
+    border:4px solid rgb(255, 136, 0);
+    outline: none;
+}
+
+.image_email form button{
+    height:33px;
+    border:none;
+}
+
+.image_email form #bl-btn:hover{
+    color:white;
+    border:none;
+    background-color:rgb(255, 136, 0);
+}
+
+.emailText{
+    font-size:24px;
+}
+
+.emailText b{
+    font-size:24px;
+}
+
+.emailBlock{
+    height:300px;
+    width:380px;
+}
+
+/* Email */
+
+/* FORM */
+
+.imageForm{
+    width:600px;
+    height:560px;
+    background-image: url("../img/form/forms.jpg");
+    background-size: cover;
+    margin:0 auto;
+    padding:30px 0 0 20px;
+    position:relative;
+}
+
+.contentForm{
+    background-color:rgba(0, 0, 0, 0.178);
+    padding:5px;
+    color:rgb(0, 0, 0);
+    width:80%;
+    font-size:15px;
+    
+}
+
+.contentForm span{
+    border-bottom:2px solid red;
+    font-weight:bold;
+}
+
+.formQuestion{
+    width:250px;
+    position:absolute;
+    top:140px;
+    right:20px;
+}
+
+.formQuestion input{
+    width:220px;
+    height:40px;
+    border: 4px solid rgb(255, 136, 0);
+    padding-left:10px;
+    font-size:14px;
+    outline:none;
+}
+
+.formQuestion p{
+    font-weight:bold;
+    font-size:18px;
+}
+
+.formQuestion textarea{
+    width:220px;
+    height:80px;
+    border: 4px solid rgb(255, 136, 0);
+    padding-left:10px;
+    font-size:14px;
+    outline:none;
+}
+
+.formQuestion button{
+    width:220px;
+    height:40px;
+    background-color: rgb(255, 136, 0);
+    border:none;
+    color:white;
+    font-size:18px;
+    padding-left:10px;
+}
+
+/* FORM */
+
+/* FOOTER */
+
+footer{
+    width:100%;
+    height:350px;
+    background-color:black;
+}
+
+.flexfoot {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo h1{
+    font-family: 'Mochiy Pop One', sans-serif;
+    letter-spacing: 3px;
+    margin: 20px 0 0 20px;
+    color: white;   
+}
+
+.navigateFooter{
+    margin:30px 30px 0 0;
+}
+
+.navigateFooter a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 10px 15px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.navigateFooter a:hover{
+    color:white;
+    border-bottom:1px solid red;
+}
+
+.footInfo {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: space-around;
+    margin: 0 auto;
+    color: white;
+    margin-top: 20px;
+}
+
+.footInfo b {
+    color: rgb(255, 136, 0);
+}
+
+.seti,
+.flexSeti {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.copy {
+    padding-top: 20px;
+}
+
+.flexSeti {
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding: 0 30px 0 30px;
+}
+
+.flexSeti div p {
+    font-size: 18px;
+}
+
+.fa {
+    padding: 5px;
+}
+
+.fa:hover{
+    color: rgb(255, 136, 0);
+    cursor:pointer;
+}
+/* FOOTER */
+
+.carousel-indicators{
+    z-index: 1 !important;
+}
+
+/* PETS */
+
+.hide{
+    opacity:1;
+    animation-name: a1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes a1 {
+    to{
+    opacity:0;
+    min-height:0;
+    min-width:0;
+    padding:0;
+    margin: 0;
+    border:0;
+    }
+}
+
+.none{
+    display:none !important;
+}
+
+/* PETS */
+
+/* CONTACT */
+
+.blockCard{
+    position:relative;
+    width:100%;
+    height: 400px;
+}
+
+.map{
+    width:100%;
+    position:absolute;
+    top:360px;
+}
+
+.blago{
+    margin-top:130px;
+}
+
+/* CONTACT */
+
+/* appeal */
+
+.appeal{
+    padding-top: 30px;
+    height:350px;
+    background-color: black;
+}
+
+
+.appeal input{
+    display:block;
+    margin: 0 auto;
+    width:350px;
+    height:40px;
+    border:3px solid rgb(255, 136, 0);
+    outline: none;
+}
+
+.appeal textarea{
+    display:block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width:350px;
+    height:150px;
+    outline: none;
+    border:3px solid rgb(255, 136, 0);
+}
+
+#buttonAppeal{
+    width:200px;
+    display:block;
+    margin: 0 auto;
+    color:rgb(255, 136, 0);
+    border: 1px solid rgb(255, 136, 0);
+}
+
+#buttonAppeal:hover{
+    color:white;
+    background-color: rgb(255, 136, 0);
+}
+
+#alertOtz{
+    width:520px;
+}
+
+#divBlocko{
+   width:530px;
+   margin:0 auto;
+}
+
+hr{
+    width:300px;
+}
+
+#appeals{
+    width:500px;
+    margin-top:70px;
+}
+
+/* appeal */
+
+/* reviews */
+
+.formReviews{
+    background-color:black;
+    border-radius:0px 50px 0px 0px;
+}
+
+.formReviews p{
+    text-align:center;
+    color:white;
+    padding-top:30px;
+    font-size:20px;
+}
+.formReviews textarea{
+    width:250px;
+    height:150px;
+    background-color:rgba(0, 0, 0, 0);
+    border:1px solid rgb(255, 136, 0);
+    margin:0 auto;
+    display:block;
+    margin-top:20px;
+    outline:none;
+    color:white;
+    padding:5px;
+}
+
+.formReviews .btn{
+    border:1px solid rgb(255, 136, 0);
+    color:white;
+    margin:0 auto;
+    display:block;
+    margin-top:20px;
+}
+
+.formReviews .btn:hover{
+    background-color:rgb(255, 136, 0);
+}
+
+/* reviews */
+/* Adaptive */
+@media (min-width:1000px) and (max-width:1250px){
+    .info p{
+        font-size:18px;
+        height:250px;
+    }
+    .info .btn{
+        display:block;
+    }
+    
+    .emailText{
+        font-size:18px;
+    }
+
+    .emailText b{
+        font-size:18px;
+    }
+
+    .image_email{
+        height:300px;
+    }
+
+    .emailBlock{
+        height:200px;
+        width:380px;
+    }
+
+    .logo h1{
+        font-size:24px;
+    }
+
+    .flexSeti{
+        margin-top:10px;
+    }
+
+    .navigateFooter a{
+        
+        font-size: 16px;
+    }
+
+    .flexSeti div p {
+        margin:0 0 5px 0;
+    }
+
+    #reg {
+        position:fixed;
+        top:80px;
+        left:300px;	
+        }
+        
+        
+}
+
+@media (min-width:800px) and (max-width:1000px){
+    .info p{
+        font-size:16px;
+        height:200px;
+    }
+    .info .btn{
+        display:block;
+    }
+    
+    .emailText{
+        font-size:16px;
+    }
+
+    .emailText b{
+        font-size:16px;
+    }
+    
+    #alertsauto{
+   position: fixed;
+   top:250px;
+   left:100px;
+   z-index: 3;
+   width:77%;
+}
+
+    .image_email{
+        height:250px;
+    }
+
+    .emailBlock{
+        height:170px;
+        width:320px;
+    }
+
+    .formEmail input{
+        width:160px;
+    }
+
+    .formEmail #bl-btn{
+        width:120px;
+        font-size:16px;
+    }
+
+    footer{
+        height:300px;
+    }
+
+    .footInfo b{
+        font-size:13px;
+    }
+
+    .footInfo p{
+        font-size:12px;
+    }
+
+    .footInfo{
+        width:600px;
+    }
+
+    .logo h1{
+        font-size:20px;
+    }
+    footer .logo img{
+        margin:10px 0 0 10px;
+        width:60px;
+        height:50px;
+
+    }
+
+    .navigateFooter a{
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+
+    .copy, .iconsBlock{
+        font-size:14px;
+    }
+
+    .flexSeti{
+        margin-top:10px;
+    }
+
+    #reg {
+        width:300px;
+        height:380px;
+        position:fixed;
+        top:70px;
+        left:250px;	
+        }
+
+        .form_autch{
+            margin:10px 0 0 10px;
+            font-size:16px;
+            width:250px;
+        }
+
+        .form_flex h2, .form_flex1 h2 {
+            margin: 20px 0;
+            font-size:18px;
+        }
+
+        .form_flex input {
+            margin-left: 30px;
+        }
+
+        .form_flex1 input {
+            margin-left: 30px;
+        }
+
+        .form_flex input ~[type="submit"]{
+            margin-top:73px;
+        }
+}
+
+@media (min-width:600px) and (max-width:800px){
+    .info p{
+        font-size:14px;
+        height:150px;
+    }
+    .info .btn{
+        display:block;
+        
+    }
+    
+    #alertsauto{
+   position: fixed;
+   top:150px;
+   left:80px;
+   z-index: 3;
+   width:75%;
+}
+
+.emailText{
+        font-size:12px;
+    }
+
+    .emailText b{
+        font-size:12px;
+    }
+
+    .image_email{
+        height:200px;
+    }
+
+    .emailBlock{
+        height:170px;
+        width:230px;
+    }
+
+    .formEmail input{
+        width:120px;
+        height:25px;
+    }
+
+    .formEmail #bl-btn{
+        width:100px;
+        font-size:14px;
+        height:25px;
+    }
+
+    .footInfo{
+        width:470px;
+    }
+
+    footer .logo img{
+        width:50px;
+        height:40px;
+        margin:10px 0 0 5px;
+
+    }
+
+    .logo h1{
+        font-size:14px;
+        margin:20px 0 0 5px;
+    }
+
+    .navigateFooter{
+        width:270px;
+        margin:20px 10px 0 0;
+    }
+
+    .navigateFooter a{
+        font-size: 12px;
+        padding: 10px 5px;
+    }
+
+    .footInfo{
+        margin:10px 5px 0 5px;
+    }
+
+    .footInfo b{
+        font-size:11px;
+    }
+
+    .footInfo p{
+        font-size:10px;
+    }
+
+    .flexSeti{
+        margin-top:10px;
+    }
+
+    .flexSeti div p, .copy{
+        font-size:14px;
+    }
+
+    footer{
+        height:260px;
+    }
+
+    .imageForm{
+        width:400px;
+        height:400px;
+        padding:10px 0 0 10px;
+    }
+
+    .contentForm{
+        width:70%;
+        font-size:11px;
+    }
+
+    .formQuestion {
+        width: 200px;
+        position: absolute;
+        top: 90px;
+        right: 10px;
+    }
+
+    .formQuestion input {
+        width: 190px;
+        border:2px solid rgb(255, 136, 0);
+        height: 20px;
+        font-size: 11px;
+    }
+
+    .formQuestion p {
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .formQuestion textarea {
+        width: 190px;
+        height: 60px;
+        border: 2px solid rgb(255, 136, 0);
+        font-size: 12px;
+    }
+
+    .formQuestion button {
+        width: 190px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    #reg {
+        width:300px;
+        height:380px;
+        position:fixed;
+        top:70px;
+        left:250px;	
+        }
+
+        .form_autch{
+            margin:10px 0 0 10px;
+            font-size:16px;
+            width:250px;
+        }
+
+        .form_flex h2, .form_flex1 h2 {
+            margin: 20px 0;
+            font-size:18px;
+        }
+
+        .form_flex input {
+            margin-left: 30px;
+        }
+
+        .form_flex1 input {
+            margin-left: 30px;
+        }
+
+        .form_flex input ~[type="submit"]{
+            margin-top:73px;
+        }
+}
+
+@media (min-width:400px) and (max-width:600px){
+    .info p{
+        font-size:12px;
+        height:100px;
+    }
+    .info .btn{
+        display:block;
+    }
+    
+    #alertsauto{
+   position: fixed;
+   top:130px;
+   left:50px;
+   z-index: 3;
+   width:74%;
+   font-size:12px;
+}
+
+    footer .logo h1{
+        font-size:12px;
+    }
+
+    footer .logo img{
+        width:50px;
+    height:40px;
+    margin-top:10px;
+    }
+
+    footer .navigateFooter{
+        display:none;
+    }
+
+    .footInfo{
+        font-size:10px;
+        width: 320px;
+    }
+
+    .flexSeti, .iconsBlock{
+        font-size:  10px !important;
+    }
+
+    .flexSeti{
+        margin-top:0px;
+    }
+
+    .volonter{
+        display:none;
+    }
+    .image_email{
+        height:140px;
+    }
+    
+    .emailText{
+        font-size:12px;
+    }
+
+    .emailText b{
+        display:none;
+    }
+
+    .emailText{
+        margin-left:15px;
+    }
+
+    .emailBlock{
+        width: 190px;
+        height:80px;
+    }
+
+    .image_email form input{
+        width:100px;
+        border:2px solid rgb(255, 136, 0);
+        font-size:10px;
+    }
+
+    .formEmail #bl-btn{
+        width:80px;
+        font-size:10px;
+        height:20px;
+    }
+
+    #priut{
+        display:none;
+    }
+    
+    #blagotvor{
+        margin:0 auto;
+    }
+
+    #alertOtz{
+        width:300px;
+    }
+
+    #divBlocko{
+        width:310px;
+        margin:0 auto;
+    }
+
+    hr{
+        width:100px;
+    }
+
+    #imgCats{
+        width:60px;
+        height:60px;
+    }
+
+    #no{
+        display:none;
+    }
+
+    #yes{
+
+        display:block;
+    }
+
+    #appeals{
+        width:300px;
+        margin-top:70px;
+    }
+
+    .appeal{
+        height:300px;
+    }
+
+    .appeal input{
+        width:250px;
+        height:40px;
+    }
+    
+    .appeal textarea{
+        width:250px;
+        height:100px;
+    }
+
+    #reg {
+        width:300px;
+        height:380px;
+        position:fixed;
+        top:70px;
+        left:70px;	
+        }
+
+        .form_autch{
+            margin:10px 0 0 10px;
+            font-size:16px;
+            width:250px;
+        }
+
+        .form_flex h2, .form_flex1 h2 {
+            margin: 20px 0;
+            font-size:18px;
+        }
+
+        .form_flex input {
+            margin-left: 30px;
+        }
+
+        .form_flex1 input {
+            margin-left: 30px;
+        }
+
+        .form_flex input ~[type="submit"]{
+            margin-top:73px;
+        }
+}
+
+@media (min-width:360px) and (max-width:400px){
+    .info p{
+        font-size:12px;
+        height:100px;
+    }
+    .info .btn{
+        display:block;
+    }
+    
+    #alertsauto{
+   position: fixed;
+   top:100px;
+   left:50px;
+   z-index: 3;
+   width:74%;
+   font-size:10px;
+}
+
+    footer .logo h1{
+        font-size:12px;
+    }
+
+    footer .logo img{
+        width:50px;
+    height:40px;
+    margin-top:10px;
+    }
+
+    footer .navigateFooter{
+        display:none;
+    }
+
+    .footInfo{
+        font-size:10px;
+        width: 280px;
+    }
+
+    .flexSeti, .iconsBlock{
+        font-size:  10px !important;
+    }
+
+    .flexSeti{
+        margin-top:0px;
+    }
+
+    .volonter{
+        display:none;
+    }
+    .image_email{
+        height:140px;
+    }
+
+    .emailText b{
+        display:none;
+    }
+
+    .emailText{
+        margin-left:60px;
+        font-size:11px;
+    }
+
+    .emailBlock{
+        width: 190px;
+        height:80px;
+    }
+
+    .image_email form input{
+        width:100px;
+        border:2px solid rgb(255, 136, 0);
+        font-size:10px;
+    }
+
+    .formEmail #bl-btn{
+        width:80px;
+        font-size:10px;
+        height:20px;
+    }
+
+    #priut{
+        display:none;
+    }
+    
+    #blagotvor{
+        margin:0 auto;
+    }
+
+    #alertOtz{
+        width:300px;
+    }
+
+    #divBlocko{
+        width:310px;
+        margin:0 auto;
+    }
+
+    hr{
+        width:100px;
+    }
+
+    #imgCats{
+        width:60px;
+        height:60px;
+    }
+
+    #no{
+        display:none;
+    }
+
+    #yes{
+
+        display:block;
+    }
+
+    #appeals{
+        width:300px;
+        margin-top:70px;
+    }
+
+    .appeal{
+        height:300px;
+    }
+
+    .appeal input{
+        width:250px;
+        height:40px;
+    }
+    
+    .appeal textarea{
+        width:250px;
+        height:100px;
+    }
+
+    #reg {
+        width:300px;
+        height:380px;
+        position:fixed;
+        top:70px;
+        left:40px;	
+        }
+
+        .form_autch{
+            margin:10px 0 0 10px;
+            font-size:16px;
+            width:250px;
+        }
+
+        .form_flex h2, .form_flex1 h2 {
+            margin: 20px 0;
+            font-size:18px;
+        }
+
+        .form_flex input {
+            margin-left: 30px;
+        }
+
+        .form_flex1 input {
+            margin-left: 30px;
+        }
+
+        .form_flex input ~[type="submit"]{
+            margin-top:73px;
+        }
+        
+        .flexSeti div{
+            width:40%;
+        }
+        
+        .copy{
+            width:50%;
+        }
+    
+}
+
+/* Adaptive */
